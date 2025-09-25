@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Car Wash</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  .card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }.card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .card h3 {
+    margin: 15px 0 10px 0;
+    color: #333;
+  }
+  .card p {
+    color: #666;
+    font-size: 14px;
+    margin: 0 0 10px 0;
+  }
+  .card span {
+    font-weight: bold;
+    color: #000;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Car Wash Packages</h1>
+  <div class="card-container">
+    
+    <div class="card">
+      <img src="images/basic car wash.jpeg" alt="Basic Wash">
+      <h3>Basic Wash</h3>
+      <p>Exterior wash + Tire cleaning</p>
+      <span>PKR 500</span>
+    </div><div class="card">
+      <img src="images/exterior interor.jpg" alt="Premium Wash">
+      <h3>Premium Wash</h3>
+      <p>Exterior + Interior cleaning</p>
+      <span>PKR 1200</span>
+    </div>
+
+    <div class="card">
+      <img src="images/deep clean.webp" alt="Deluxe Wash">
+      <h3>Deluxe Wash</h3>
+      <p>Full wash + Interior deep cleaning</p>
+      <span>PKR 2000</span>
+    </div>
+
+    <div class="card">
+      <img src="images/engine cleaning.jpg" alt="Engine Cleaning">
+      <h3>Engine Cleaning</h3>
+      <p>Engine cleaning + Check-up</p>
+      <span>PKR 1500</span>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>

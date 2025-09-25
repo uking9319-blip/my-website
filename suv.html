@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SUV Cars</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      padding: 20px;
+    }.car-list {
+      display: flex;
+      gap: 20px;
+      margin-top: 20px;
+      flex-wrap: nowrap; /* ek hi row me rakhne ke liye */
+      overflow-x: auto;  /* agar screen chhoti ho tw scroll ho jaye */
+    }
+    .car {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      overflow: hidden;
+      text-align: center;
+      min-width: 300px; /* box ka fixed width */
+    }
+    .car img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }.car h3 {
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🚙 SUV Collection</h1>
+    <p>Best SUVs for family and adventures</p>
+  </header>
+
+  <div class="container">
+    <h2>Our SUVs</h2>
+    <div class="car-list">
+      
+      <div class="car">
+       <a href="landcruiser.html">
+        <img src="images/image13.jpg" alt="Land Cruiser">
+        <h3>Toyota Land Cruiser</h3>
+        <p>Powerful SUV built for all terrains.</p>
+        </a>
+      </div>
+
+      <div class="car">
+        <a href="rangerover.html">
+        <img src="images/range rover.jpeg" alt="Range Rover">
+        <h3>Range Rover</h3>
+        <p>Luxury SUV with premium comfort.</p>
+        </a>
+      </div>
+
+      <div class="car">
+        <a href="prado.html">
+        <img src="images/image prado.webp" alt="Prado">
+        <h3>Toyota Prado</h3>
+        <p>Stylish design with off-road capability.</p>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+</body>
